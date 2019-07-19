@@ -1,0 +1,47 @@
+/* used colours in hex code: #5fa837 (green), #363f49(black-ish gray), #606b70(gray), aab4b2 (bright gray)*/
+
+#main {
+  background-color: #aab4b2;
+}
+
+/*Centers and adjusts the title colour.*/
+#title {
+  text-align: center;
+  color: #5fa837;
+}
+
+/*Nakes the image responsive.*/
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sets the image's color, caption text to center, */
+#img-caption {
+  text-align: center;
+  color: #5fa837;
+  font-size: 50px;
+  /* The properties of an "h1" tag given to a "div" element */
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+/*Centers, sizes and sets the font for the motto */
+#motto {
+  text-align: center;
+  font-size: 30px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+/* Centers the text under the picture*/
+#tribute-info {
+  text-align: center;
+  font-size: 20px;
+}
