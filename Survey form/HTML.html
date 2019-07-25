@@ -1,0 +1,96 @@
+<!-- Add some CSS to this project it is very unrefined. -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title> Survey, what cat would you like?</title>
+   </head>
+   <body>
+      <!-- background-image:"https://mymodernmet.com/wp/wp-content/uploads/2017/10/cat-poses-martial-arts-8.jpg";
+         background-color: #cccccc; -->
+      <h1 id="title">Quiz! What cat are you?</h1>
+      <p id="description"> What type of cat would you be?</p>
+      <!-- Dropdown menu with 3 options -->
+      <form id="survey-form" 
+      <dropdown id="dropdown">
+      <select name="Cat types" id="dropdown">
+         <option value="Happy cat">Happy cat</option>
+         <option value="Brave cat">Brave cat</option>
+         <option value="Loving cat">Loving cat</option>
+      </select>
+      <br>
+      <br>
+      <!-- Requires that the user enters their name -->
+      <label for="name" id="name-label">Your name:</label>
+      <input id="name" type="text" name="name" required placeholder="Example: John">
+      <br>
+      <br>
+      <!-- Requires the user to enter his/hers email address -->
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="youremail@domain.name">
+      <br>
+      <br>
+      <!-- Requires the user to enter a number -->
+      <label for="number-box" id="number-label">Enter a number:</label>
+      <input id="number" type="number" name="number" min="1" max="10" placeholder="How many cats?">
+      <br>
+      <br>
+      <!-- Set of radio buttons letting the user choose a personality of a cat-->
+      <div for="Cat" class="btn-group">
+         What cat would you like to have?
+         <br>
+         <br>
+         <!-- Button that lets the user choose the option "extraverted-cat" -->
+         <label for="extraverted-cat">Extraverted cat</label>
+         <input type="radio" name="cat-types" value="extraverted-cat" id="extraverted-cat" alt="Extraverted cat choice button in the what cat would you like to have form.">
+         <br>
+         <br>
+         <!-- Button that lets the user choose the option "agreeable-cat" -->
+         <label for="agreeable-cat">Agreeable cat</label>
+         <input type="radio" name="cat-types" value="agreeable-cat" id="agreeable-cat" alt="Agreeable cat choice button in the what cat would you like to have form.">
+         <br>
+         <br>
+         <!-- Button that lets the user choose the option "dominant-cat" -->
+         <label for="dominant-cat">Dominant cat</label>
+         <input type="radio" name="cat-types" value="dominant-cat" id="dominant-cat" alt="Dominant cat choice button in the what cat would you like to have form.">
+      </div>
+      <br>
+      <br>
+      <div for="cat-characteristics" class="btn-group">
+      What cat would you like to have?
+      <!-- A set of checkbox buttons that lets the user choose additional characteristics for their cat -->
+      <div for="cat-attributes" class="btn-group">
+         What would you like your cat to have?
+         <br>
+         <br>
+         <!--A button that lets the user choose the option: tail.-->
+         <label for="tale">Tail</label>
+         <input type="checkbox" name="long-tail" value="long-tail" id="long-tail" alt="Checkbox button that lets the user select a cat with long tail.">
+         <br>
+         <br>
+         <!--A button that lets the user choose the option: long-fur. -->
+         <label for="long-fur">Long fur</label>
+         <input type="checkbox" name="long=fur" value="long-fur" id="long-fur" alt="Checkbox button that lets the user select a cat with long fur" <br>
+         <br>
+         <br>
+         <!--A button that lets the user choose the option: thick-fur.-->
+         <label for="thick-fur">Thick fur</label>
+         <input type="checkbox" name="thick-fur" value="thick-fur" id="thick-fur" alt="Checkbox button that lets the user select a cat with long fur">
+         <br>
+         <br>
+         <!--A button that lets the user choose the option: trimmed nails. --><label for="trimmed-nails">Trimmed nails</label>
+         <input type="checkbox" name="trimmed-nails" value="trimmed-nails" id="trimmed-nails" alt="Checkbox button that lets the user select a cat with trimmed nails"> 
+      </div>
+      <br>
+      <br>
+      <!-- Text field for additional comments. -->
+      <textarea rows="4" cols="50" alt="Text field for additional comments."></textarea>
+      <br>
+      <br>
+      <!-- Button that lets you submit all of the results from the form -->
+      <label for="sumbit"></label>
+      <input type="submit" id="submit" name="submit" value="Submit!" alt="Would you like some other trait for your cat?"></button>
+      </form>
+   </body>
+</html>
