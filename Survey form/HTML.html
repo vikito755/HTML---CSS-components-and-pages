@@ -1,5 +1,14 @@
 <!-- Add some CSS to this project it is very unrefined. -->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script> 
+window.addEventListener("beforeinstallprompt", function(e) {
+  // log the platforms provided as options in an install prompt
+  console.log(e.platforms); // e.g., ["web", "android", "windows"]
+  e.userChoice.then(function(choiceResult) {
+    console.log(choiceResult.outcome); // either "accepted" or "dismissed"
+  }, handleError);
+});
+</script>
 <!DOCTYPE html>
 <html>
    <head>
