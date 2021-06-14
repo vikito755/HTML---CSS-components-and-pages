@@ -6,7 +6,7 @@ self.addEventListener('install', event => {
             .open(CACHE_NAME)
             .then(cache =>
                 cache.addAll([
-                    window.location.href
+                    `${window.location.href}`
                 ])
             )
     );
